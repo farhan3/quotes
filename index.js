@@ -12,12 +12,12 @@ app.get('/', function(req,res) {
     var client = net.connect(quotesServer);
 
     client.on('data', function(data) {
-       res.send(data.toString());
+       res.send(data.toString() + '\n\n(Quote from nicksosinski.com:17)');
        client.end();
     });
 });
 
-var server = app.listen(30080, function () {
+var server = app.listen(80, function () {
   var host = server.address().address;
   var port = server.address().port;
 

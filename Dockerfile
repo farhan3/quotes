@@ -1,2 +1,2 @@
 FROM node:onbuild
-EXPOSE 30080
+EXPOSE 80
