@@ -1,0 +1,26 @@
+{
+  "name": "quotes.js",
+  "version": "1.0.0",
+  "description": "Simple Node.js app that runs an http server that serves random quotes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "clean": "rm -rf node_modules",
+    "build": "npm install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/farhan3/quotes.js.git"
+  },
+  "author": "farhan3",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/farhan3/quotes.js/issues"
+  },
+  "homepage": "https://github.com/farhan3/quotes.js#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "morgan": "^1.7.0"
+  }
+}
